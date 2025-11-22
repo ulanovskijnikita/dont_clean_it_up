@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost', 'root', '', 'dont_clean_yourself');
+$con = mysqli_connect('localhost', 'root', '', 'dont_clean_it_up');
 $id = $_COOKIE['userId'];
 $text = $_POST['text'];
 $themeId = $_POST['themeId'];

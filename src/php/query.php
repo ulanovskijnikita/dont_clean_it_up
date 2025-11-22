@@ -2,7 +2,7 @@
 // error_reporting(0);
 // mysqli_report(MYSQLI_REPORT_OFF);
 
-$con = mysqli_connect('localhost', 'root', '', 'dont_clean_yourself');
+$con = mysqli_connect('localhost', 'root', '', 'dont_clean_it_up');
 
 if (mysqli_connect_errno()) {
     $str = '{"error": "Тут должны быть данные, но произошла ошибка в БД: ' . mysqli_connect_error() . '"}';
